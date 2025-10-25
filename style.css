@@ -158,6 +158,8 @@ a { color: #fff; }
 .dot-purple { background: #FF4D8D; }
 .dot-white { background: #ffffff; }
 .dot-orange { background: #f58b2f; }
+.dot-utage { background: #ffffff; }
+.dot-orido { background: #ffffff; }
 
 .side-card {
   margin-top: 16px;
@@ -503,6 +505,22 @@ a { color: #fff; }
   background-position: center;
   background-repeat: no-repeat;
   background-color: #f58b2f;      /* 余白部分は白で埋める */
+}
+
+.team-utage {
+  background-image: url("assets/d2ff66e5ecb1977c101686ddae181edf_400x400.jpg");
+  background-size: contain;    /* 枠に収まるように縮小/拡大 */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #211312;      /* 余白部分は白で埋める */
+}
+
+.team-orido {
+  background-image: url("assets/orido.png");
+  background-size: contain;    /* 枠に収まるように縮小/拡大 */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #fff;      /* 余白部分は白で埋める */
 }
 
 .section-head {
