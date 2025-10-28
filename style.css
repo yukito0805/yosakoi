@@ -531,6 +531,14 @@ a { color: #fff; }
   background-color: #fff;      /* 余白部分は白で埋める */
 }
 
+.team-kabuki {
+  background-image: url("assets/YspjkgJS_400x400.jpg");
+  background-size: contain;    /* 枠に収まるように縮小/拡大 */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #fff;      /* 余白部分は白で埋める */
+}
+
 .section-head {
   display: flex;
   align-items: baseline;
